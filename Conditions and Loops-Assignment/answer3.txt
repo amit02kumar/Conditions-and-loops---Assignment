@@ -1,0 +1,71 @@
+Loops:-
+Loops are used when we want to perform repeated actions. if we want to run the same code over and over, each time with a different value. 
+
+Example:- if there is a task of printing numbers from 1 to 100, it will be very hectic or difficult to do it manually, loops helps us to automate such tasks.
+
+Types of Loops:-
+(1)- For loop:- loop a block of code a number of times.
+(2)- for-in loop:- loop through the properties of an object.
+(3)- for-of loop:- loops through the values of an iterable object.
+(4)- while loop:- loops a block based on a specific condition.
+(5)- do-while loop:- while loop varient which runs atleast once.
+
+[1]- For loop:- 
+    for(declaration ;condition; increment/decrement){
+       // body to execute
+    }
+
+ Example:- 
+        let num2=25;
+        for(let num1=10; num1<=num2;num1++){
+        console.log(num1);
+        }   
+
+[2]- for-in loop:-
+      for (key in object) {
+  // body to execute
+}
+
+Example:- 
+            const person = {firstName:"amit", lastName:"kumar", age:20};
+            let text = "";
+            for (let x in person) {
+            text += person[x];
+            }
+
+
+[3]- for-of loop:-
+            for (variable of iterable) {
+            // body to be executed
+            }
+
+Example:-   
+            const cars = ["BMW", "Volvo", "Mini"];
+            let text = "";
+            for (let x of cars) {
+            text += x;
+            }
+
+[4]- while loop:-
+    while (condition) {
+    // body
+}
+
+Example:- 
+        let a=1;
+        while (a<=25) {
+        console.log(a);
+        a++;
+        }
+
+[5]- do-while loop:-
+        do {
+             // body to execute
+        } while (condition);
+
+Example:- 
+        let c=5;
+        do {
+        console.log(c);
+        c++;
+        }while (c<=2);

@@ -1,0 +1,57 @@
+Conditional statements:- 
+1-Conditional statements are used to perform different actions based on different conditions.
+2- Sometimes we have to execute a block of code based on some condition.
+3- Example:- a promt misght ask for the age of the user and if its greater than 18, display a special message.
+
+
+JavaScript have 3 forms of if ---else sstatement:-
+1- if statement
+2- if-else statement
+3- if-else-if statement
+
+[1]- if statement:-
+    if(condition){
+        body
+    }
+
+Example:- let age = 15
+            if(age>=18){
+                console.log("eligible to vote");
+            }
+
+
+[2]- if-else statement:-
+    if(condition){
+        body
+    } else{
+        body
+    }
+
+
+Example:- let age = 15
+            if(age>=18){
+                console.log("eligible to vote");
+            }
+            else{
+                console.log("Not eligible to vote");
+            }
+
+[3]- if-else-if statement:-
+    if(condition){
+        body
+    } else if{
+        body
+    }else{
+        body
+    }
+
+
+Example:- let score = 90
+            if(score>=80){
+                console.log("Grade A");
+            }
+            else if(score>=50 && score <80){
+                console.log("Grade B");
+            } else{
+                console.log("Grade C")
+            }         
